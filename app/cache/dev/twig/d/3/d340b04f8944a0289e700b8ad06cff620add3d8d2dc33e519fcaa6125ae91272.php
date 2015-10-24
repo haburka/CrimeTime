@@ -15,8 +15,8 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a798dc55d4bd08829588997177912e5c2eeae924a4c1464d1b0db7e3f76562e5 = $this->env->getExtension("native_profiler");
-        $__internal_a798dc55d4bd08829588997177912e5c2eeae924a4c1464d1b0db7e3f76562e5->enter($__internal_a798dc55d4bd08829588997177912e5c2eeae924a4c1464d1b0db7e3f76562e5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "index.html.twig"));
+        $__internal_acd36067cecb90c1b701be673867a0d38e766409f1bf48857e689284acb23ad0 = $this->env->getExtension("native_profiler");
+        $__internal_acd36067cecb90c1b701be673867a0d38e766409f1bf48857e689284acb23ad0->enter($__internal_acd36067cecb90c1b701be673867a0d38e766409f1bf48857e689284acb23ad0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "index.html.twig"));
 
         // line 1
         echo "<!DOCTYPE HTML>
@@ -38,11 +38,11 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 \t<body class=\"landing\">
 
 \t\t<!-- Page Wrapper -->
-\t\t\t<div id=\"page-wrapper\">
+\t\t\t<div style=\"background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/banner01.jpg');\" id=\"page-wrapper\">
 
 \t\t\t\t<!-- Header -->
 \t\t\t\t\t<header id=\"header\" class=\"alt\">
-\t\t\t\t\t\t<h1><a href=\"index.html\">Spectral</a></h1>
+\t\t\t\t\t\t<h1><a href=\"index.html\">Real Time Crime</a></h1>
 \t\t\t\t\t\t<nav id=\"nav\">
 \t\t\t\t\t\t\t<ul>
 \t\t\t\t\t\t\t\t<li class=\"special\">
@@ -64,12 +64,14 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 \t\t\t\t<!-- Banner -->
 \t\t\t\t\t<section id=\"banner\">
 \t\t\t\t\t\t<div class=\"inner\">
-\t\t\t\t\t\t\t<h2>Spectral</h2>
-\t\t\t\t\t\t\t<p>Another fine responsive<br />
-\t\t\t\t\t\t\tsite template freebie<br />
-\t\t\t\t\t\t\tcrafted by <a href=\"http://html5up.net\">HTML5 UP</a>.</p>
+\t\t\t\t\t\t\t<h2>
+\t\t\t\t\t\t\t\t<img src=\"images/logo.png\" alt=\"\"/>
+\t\t\t\t\t\t\t</h2>
+\t\t\t\t\t\t\t<p>A real-time analytics<br />
+\t\t\t\t\t\t\tApp created with love for<br />
+\t\t\t\t\t\t\tThe People of Guatemala City</p>
 \t\t\t\t\t\t\t<ul class=\"actions\">
-\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"button special\">Activate</a></li>
+\t\t\t\t\t\t\t\t<li style=\"padding-bottom:5em;\"><a href=\"#\" class=\"button special\" id=\"to-beta\">Sign up for our Beta</a></li>
 \t\t\t\t\t\t\t</ul>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<a href=\"#one\" class=\"more scrolly\">Learn More</a>
@@ -158,9 +160,9 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 \t\t\t\t\t<section id=\"cta\" class=\"wrapper style4\">
 \t\t\t\t\t\t<div class=\"inner mc_inner\">
 \t\t\t\t\t\t\t";
-        // line 139
-        $this->loadTemplate("mailchimp.html.twig", "index.html.twig", 139)->display($context);
-        // line 140
+        // line 141
+        $this->loadTemplate("mailchimp.html.twig", "index.html.twig", 141)->display($context);
+        // line 142
         echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t</section>
 
@@ -192,7 +194,7 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 \t</body>
 </html>";
         
-        $__internal_a798dc55d4bd08829588997177912e5c2eeae924a4c1464d1b0db7e3f76562e5->leave($__internal_a798dc55d4bd08829588997177912e5c2eeae924a4c1464d1b0db7e3f76562e5_prof);
+        $__internal_acd36067cecb90c1b701be673867a0d38e766409f1bf48857e689284acb23ad0->leave($__internal_acd36067cecb90c1b701be673867a0d38e766409f1bf48857e689284acb23ad0_prof);
 
     }
 
@@ -208,7 +210,7 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 
     public function getDebugInfo()
     {
-        return array (  164 => 140,  162 => 139,  22 => 1,);
+        return array (  166 => 142,  164 => 141,  22 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -230,11 +232,11 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 /* 	<body class="landing">*/
 /* */
 /* 		<!-- Page Wrapper -->*/
-/* 			<div id="page-wrapper">*/
+/* 			<div style="background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/banner01.jpg');" id="page-wrapper">*/
 /* */
 /* 				<!-- Header -->*/
 /* 					<header id="header" class="alt">*/
-/* 						<h1><a href="index.html">Spectral</a></h1>*/
+/* 						<h1><a href="index.html">Real Time Crime</a></h1>*/
 /* 						<nav id="nav">*/
 /* 							<ul>*/
 /* 								<li class="special">*/
@@ -256,12 +258,14 @@ class __TwigTemplate_85faecb009ef77e4aa057d6a9e717b79b9fc13a488cbc083b849cc2008e
 /* 				<!-- Banner -->*/
 /* 					<section id="banner">*/
 /* 						<div class="inner">*/
-/* 							<h2>Spectral</h2>*/
-/* 							<p>Another fine responsive<br />*/
-/* 							site template freebie<br />*/
-/* 							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>*/
+/* 							<h2>*/
+/* 								<img src="images/logo.png" alt=""/>*/
+/* 							</h2>*/
+/* 							<p>A real-time analytics<br />*/
+/* 							App created with love for<br />*/
+/* 							The People of Guatemala City</p>*/
 /* 							<ul class="actions">*/
-/* 								<li><a href="#" class="button special">Activate</a></li>*/
+/* 								<li style="padding-bottom:5em;"><a href="#" class="button special" id="to-beta">Sign up for our Beta</a></li>*/
 /* 							</ul>*/
 /* 						</div>*/
 /* 						<a href="#one" class="more scrolly">Learn More</a>*/

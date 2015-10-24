@@ -17,6 +17,11 @@
 
 	$(function() {
 
+		$("#to-beta").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#cta").offset().top
+			}, 2000);
+		});
 		var	$window = $(window),
 			$body = $('body'),
 			$wrapper = $('#page-wrapper'),

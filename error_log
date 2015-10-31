@@ -1,0 +1,1 @@
+[31-Oct-2015 18:27:58 UTC] PHP Fatal error:  Class 'Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle' not found in /home/crimetime/CrimeTime/app/AppKernel.php on line 26

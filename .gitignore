@@ -12,3 +12,4 @@ composer.phar
 !bin/console
 !bin/symfony_requirements
 /vendor/
+.idea/workspace.xml
